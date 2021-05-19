@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400i,700i');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 11px;
+}
+
+p {
+  line-height: 150%;
+  padding: 10px 0 0 0
+}
+
+form {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.option {
+  margin: 5px 10px
+}
+
+.FormDateInput {
+  width: 40px;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.Announcement {
+  font-family: 'Noto Serif', serif;
+  font-size: 15px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0
+}
+
+/* .FormMessage {
+  height: 100px;
+  width: 300px;
+} */

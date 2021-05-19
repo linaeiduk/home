@@ -1,0 +1,123 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <title>NAME</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/home.css">
+  <style>
+    table, th, td {
+        border: 1px solid orange;
+    }
+    table th, table td {
+        padding: 5px;
+    }
+    .data {
+        border-spacing: 2px;
+        -webkit-animation: test 4s infinite; /* Chrome, Safari, Opera */
+        animation: test 4s infinite;
+    }
+    
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes test {
+        50% {border-spacing: 15px;}
+    }
+    /* Standard syntax */
+    @keyframes test {
+        50% {border-spacing: 15px;}
+    }
+    </style>
+</head>
+<body>
+	<header>
+    <h1 class="name">SWEET</h1>
+    <img class="LOGO" src="images/LOGO.jpg" alt="LOGO">
+  
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+      <!-- Brand -->
+      <a class="navbar-brand" href="home.html">HOME</a>
+    
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index2.html">RECIPES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index3.html">FLAVORS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index6.html">ORDERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index4.html">INFORMATION</a>
+          </li>
+        </ul>
+      </div>
+  </nav>  
+  
+</header>
+
+  <main>
+    <aside class = "left">
+
+      <img class="img-fluid" src="images/11.845bccf8-eca5-4535-9afa-6cdc3db821a8-2.jpg" width="460" height="345"> 
+      <img class="img-fluid" src="images/4.cinnamon-cheesecakes-with-pumpkin-pie-frosting.jpg" width="460" height="345"> 
+      <img class="img-fluid" src="images/17.Baileys-Chocolate-Cheesecakes-1-735x490.jpg" width="460" height="345"> 
+
+    </aside>
+      <section class = "right">
+         <h2>Contacts </h2>
+           
+         <table class="data">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Lina Carter</td>
+                <td>linacarter@mail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Laura Parker</td>
+                <td>lauraparker@mail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Luna Rambo</td>
+                <td>lunarambo@mail.com</td>
+            </tr>
+        </tbody>
+    </table>
+      </section>
+    </main>
+
+    <script>
+      document.getElementById("demo").innerHTML = "For more information please contact:";
+    </script>
+    <p id="demo"></p>
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+    <p id="demo"></p>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <title>NAME</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+	<header>
+        <h1 class="name">SWEET</h1>
+        <img class="LOGO" src="images/LOGO.jpg" alt="LOGO">
+      
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+          <!-- Brand -->
+          <a class="navbar-brand" href="home.html">HOME</a>
+        
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index2.html">RECIPES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index3.html">FLAVORS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index6.html">ORDERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index4.html">INFORMATION</a>
+              </li>
+            </ul>
+          </div>
+      </nav>  
+      
+    </header>
+  
+      <main>
+        <aside class = "left">
+            <img class="img-fluid" src="images/10.Peaches_and_Cream_cheesecake_2.jpg" width="460" height="345"> 
+            <img class="img-fluid" src="images/11.845bccf8-eca5-4535-9afa-6cdc3db821a8-2.jpg" width="460" height="345"> 
+            <img class="img-fluid" src="images/4.cinnamon-cheesecakes-with-pumpkin-pie-frosting.jpg" width="460" height="345"> 
+            <img class="img-fluid" src="images/10.Peaches_and_Cream_cheesecake_2.jpg" width="460" height="345"> 
+            <img class="img-fluid" src="images/15.mini-cheesecakes-resize-4.jpg" width="460" height="345"> 
+            <img class="img-fluid" src="images/13.mini-oreo-cheesecake.jpg" width="460" height="345"> 
+            <img class="img-fluid" src="images/14.mini-cheesecakes.jpg" width="460" height="345"> 
+            <img class="img-fluid" src="images/9.Mini-Chocolate-Cheesecakes-BP-1-1.jpg" width="460" height="345"> 
+            <img class="img-fluid" src="images/4.cinnamon-cheesecakes-with-pumpkin-pie-frosting.jpg" width="460" height="345"> 
+            <img class="img-fluid" src="images/7.Pumpkin-Cupcakes-with-Cinnamon-Cream-Cheese-Frosting-4.jpg" width="460" height="345"> 
+        </aside>
+    <section class = "right">
+
+<h3>Ordering form</h3>
+
+<i class="bi-alarm-clock"></i>
+<form>
+    <p>First Name:</p>
+      <input type="text" name="firstname" placeholder="Lizzie">
+    <p>Last Name:</p>
+    <input type="text" name="lastname" placeholder="Bennet">
+    <p>Email:</p>
+    <input type="email" name="email" placeholder="mrsdarcy@pemberley.com">
+    <p>Phone:</p>
+    <input type="tel" name="phone" placeholder="###-###-####">
+    <p>Prefered contact method:</p>
+    <div class="option">
+      <input type="radio" name="contact" value="call">Call me
+    </div>
+    <div class="option">
+      <input type="radio" name="contact" value="text">Text me
+    </div>
+    <div class="option">
+      <input type="radio" name="contact" value="email">Email me
+    </div>
+    <p>When do you need your cake?</p>
+    <input class="FormDateInput" type="number" maxlength="2" name="month" placeholder="MM">/
+    <input class="FormDateInput" type="number" maxlength="2" name="day" placeholder="DD">
+    
+    <p>Tell us about your cake:</p>
+    
+      <p>What size cake would you like?</p>
+    <div class="option">
+      <input type="radio" name="size" value="small">Small (10-12 servings)
+    </div>
+    <div class="option">
+      <input type="radio" name="size" value="regular">Regular (20-24 servings)
+    </div><br>
+    
+    <p>Which cake flavor(s) would you like?</p>
+    <div class="option">
+      <input type="checkbox" name="cake" value="vanilla">Vanilla
+    </div>
+    <div class="option">
+      <input type="checkbox" name="cake" value="chocolate">Dark Chocolate
+    </div>
+    <div class="option">
+      <input type="checkbox" name="cake" value="earlgrey">Earl Grey
+    </div>
+    <div class="option">
+      <input type="checkbox" name="cake" value="caramel">Caramel
+    </div>
+    <div class="option">
+      <input type="checkbox" name="cake" value="almond">Almond
+    </div>
+    <div class="option">
+      <input type="checkbox" name="cake" value="spice">Spice
+    </div>
+    <div class="option">
+      <input type="checkbox" name="cake" value="lemon">Lemon
+    </div>
+     <div class="option">
+      <input type="checkbox" name="cake" value="carrot">Carrot
+    </div>
+    <div class="option">
+      <input type="checkbox" name="cake" value="chocolatestout">Chocolate Stout
+    </div>
+      <div class="option">
+      <input type="checkbox" name="cake" value="redwinechocolate">Red Wine Chocolate
+    </div>
+    <div class="option">
+      <input type="checkbox" name="cake" value="other">Other (comment below)
+    </div><br>
+  
+    
+    <p>Which buttercream flavors sound tasty?</p>
+    
+    <div class="option">
+      <input type="checkbox" name="frosting" value="vanilla">Vanilla
+    </div>
+    <div class="option">
+      <input type="checkbox" name="frosting" value="chocolate">Dark Chocolate
+    </div>
+    <div class="option">
+      <input type="checkbox" name="frosting" value="creamcheese">Cream Cheese
+    </div>
+    <div class="option">
+      <input type="checkbox" name="frosting" value="mascarpone">Mascarpone
+    </div>
+    <div class="option">
+      <input type="checkbox" name="frosting" value="mocha">Mocha
+    </div>
+    <div class="option">
+      <input type="checkbox" name="frosting" value="berry">Berry
+    </div>
+    <div class="option">
+      <input type="checkbox" name="frosting" value="lemon">Lemon
+    </div>
+    <div class="option">
+      <input type="checkbox" name="frosting" value="coffee">Coffee
+    </div>
+    <div class="option">
+      <input type="checkbox" name="frosting" value="whitechocolate">White Chocolate
+    </div>
+    <div class="option">
+      <input type="checkbox" name="frosting" value="lavender">Lavender
+    </div>
+    <div class="option">
+      <input type="checkbox" name="frosting" value="saltedcaramel">Salted Caramel
+    </div>
+    <div class="option">
+      <input type="checkbox" name="frosting" value="peanutbutter">Peanut Butter
+    </div>
+    <div class="option">
+      <input type="checkbox" name="frosting" value="speculoos">Speculoos
+    </div><br>
+    
+    <p>How shall we frost it?</p>
+    <div class="option">
+      <input type="radio" name="frostingstyle" value="naked">Naked
+    </div>
+     <div class="option">
+      <input type="radio" name="frostingstyle" value="seminaked">Semi-naked
+    </div>
+     <div class="option">
+      <input type="radio" name="frostingstyle" value="fullfrost">Fully frosted
+    </div><br>
+    
+    <p>Would you like a ganache drip?</p>
+     <div class="option">
+      <input type="checkbox" name="drip" value="chocolate">Chocolate
+    </div>
+     <div class="option">
+      <input type="checkbox" name="drip" value="whitechocolate">White Chocolate
+    </div>
+     <div class="option">
+      <input type="checkbox" name="drip" value="saltedcaramel">Salted Caramel
+    </div><br>
+    
+    <p>Shall we fancy it up?</p>
+    <div class="option">
+      <input type="checkbox" name="fancy" value="edibles">Yes, please!
+    </div>
+     <div class="option">
+      <input type="checkbox" name="fancy" value="basic">No, thanks! Keep it basic. 
+    </div><br>
+    <p>Any other information we may need?</p>
+     <div class="option">
+      <textarea rows="10" cols="100" class="FormMessage" type="text" name="message" placeholder="As a matter of fact...">
+       </textarea>
+    </div>
+
+    <input type="submit" value="Submit">
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
